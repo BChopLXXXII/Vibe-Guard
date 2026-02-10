@@ -112,10 +112,10 @@ MIT. Do whatever you want with these.
 
 Made by [@BChopLXXXII](https://x.com/BChopLXXXII)
 
-Built for vibe coders who just want their AI to feel less... corporate.
+Built for vibe coders who want to ship fast without the spaghetti.
 
 Ship it. 🚀
 
 ---
 
-If this helped, star the repo — it helps others find it.
+If this helped, [star the repo](https://github.com/BChopLXXXII/Vibe-Guard) — it helps others find it.
