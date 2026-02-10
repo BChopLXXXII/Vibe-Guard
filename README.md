@@ -106,4 +106,16 @@ See `SHIP_CHECKLIST.md` before deploying.
 
 ## License
 
-MIT
+MIT. Do whatever you want with these.
+
+## About
+
+Made by [@BChopLXXXII](https://x.com/BChopLXXXII)
+
+Built for vibe coders who just want their AI to feel less... corporate.
+
+Ship it. 🚀
+
+---
+
+If this helped, star the repo — it helps others find it.
