@@ -24,7 +24,7 @@
     "eslint",
     "prettier"
   ],
-  "author": "",
+  "author": "BChopLXXXII",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "*",
