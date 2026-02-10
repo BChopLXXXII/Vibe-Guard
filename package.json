@@ -1,0 +1,50 @@
+{
+  "name": "vibe-guard",
+  "version": "1.0.0",
+  "description": "Anti-spaghetti starter for vibe coders. Strong linters, pre-commit hooks, and AI-ready structure.",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Add your dev server here'",
+    "build": "tsc",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run lint && npm run typecheck && npm run format:check && npm run test",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "vibe-coding",
+    "starter",
+    "template",
+    "typescript",
+    "eslint",
+    "prettier"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "*",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "*",
+    "husky": "*",
+    "lint-staged": "*",
+    "prettier": "*",
+    "typescript": "*",
+    "vitest": "*"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  }
+}
