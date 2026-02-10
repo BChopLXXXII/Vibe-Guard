@@ -18,7 +18,7 @@ Ship fast without the mess. This template gives you guardrails so your AI-assist
 
 ```bash
 # Clone the template
-git clone https://github.com/YOUR_USERNAME/vibe-guard.git my-project
+git clone https://github.com/BChopLXXXII/Vibe-Guard.git my-project
 cd my-project
 
 # Install dependencies
